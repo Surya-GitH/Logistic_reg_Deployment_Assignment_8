@@ -55,7 +55,7 @@ if st.button("Predict Diagnosis"):
     if prediction[0] == 1:
         st.error("🔴 Diagnosis: Diabetes - Start immediate Treatment")
     else:
-        st.success("🟢 Diagnosis: No - Cool")  
+        st.success("🟢 Diagnosis: No Diabetes")
 
 
 # In[ ]:
@@ -135,3 +135,5 @@ if st.button("Predict Diagnosis"):
 
 
 
+
+# In[ ]:
