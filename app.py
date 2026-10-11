@@ -59,7 +59,7 @@ if st.button("Predict Diagnosis"):
     st.write(f"Raw Prediction Value: {prediction[0]}")
     
     # Display Result
-    if prediction_proba[0] >= 0.75:
+    if prediction_proba[0][1] >= 0.75:
         st.success("🔴 Diagnosis: Diabetes - Start immediate Treatment")
     else:
         st.error("🟢 Diagnosis: No - Cool")
